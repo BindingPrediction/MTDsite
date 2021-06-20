@@ -1,0 +1,340 @@
+USAGE
+  psiblast [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-entrez_query entrez_query] [-subject subject_input_file]
+    [-subject_loc range] [-query input_file] [-out output_file]
+    [-evalue evalue] [-word_size int_value] [-gapopen open_penalty]
+    [-gapextend extend_penalty] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value]
+    [-sum_stats bool_value] [-seg SEG_options] [-soft_masking soft_masking]
+    [-matrix matrix_name] [-threshold float_value] [-culling_limit int_value]
+    [-best_hit_overhang float_value] [-best_hit_score_edge float_value]
+    [-window_size int_value] [-lcase_masking] [-query_loc range]
+    [-parse_deflines] [-outfmt format] [-show_gis]
+    [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-comp_based_stats compo]
+    [-use_sw_tback] [-gap_trigger float_value] [-num_iterations int_value]
+    [-out_pssm checkpoint_file] [-out_ascii_pssm ascii_mtx_file]
+    [-save_pssm_after_last_round] [-save_each_pssm] [-in_msa align_restart]
+    [-msa_master_idx index] [-ignore_msa_master] [-in_pssm psi_chkpt_file]
+    [-pseudocount pseudocount] [-inclusion_ethresh ethresh]
+    [-phi_pattern file] [-version]
+
+DESCRIPTION
+   Position-Specific Iterated BLAST 2.7.1+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+Error:  (CArgException::eConstraint) Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+- 04:35:52.313 WARNING: Ignoring unknown option -v0
+
+- 04:35:57.876 INFO: Searching 13605227 column state sequences.
+
+- 04:35:57.983 INFO: query_fas is in A2M, A3M or FASTA format
+
+- 04:35:57.984 INFO: Iteration 1
+
+- 04:35:58.049 INFO: Prefiltering database
+
+begin
+321897a
+Traceback (most recent call last):
+  File "timeloop.py", line 4, in <module>
+    time.sleep(5)
+KeyboardInterrupt
+USAGE
+  psiblast [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-entrez_query entrez_query] [-subject subject_input_file]
+    [-subject_loc range] [-query input_file] [-out output_file]
+    [-evalue evalue] [-word_size int_value] [-gapopen open_penalty]
+    [-gapextend extend_penalty] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value]
+    [-sum_stats bool_value] [-seg SEG_options] [-soft_masking soft_masking]
+    [-matrix matrix_name] [-threshold float_value] [-culling_limit int_value]
+    [-best_hit_overhang float_value] [-best_hit_score_edge float_value]
+    [-window_size int_value] [-lcase_masking] [-query_loc range]
+    [-parse_deflines] [-outfmt format] [-show_gis]
+    [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-comp_based_stats compo]
+    [-use_sw_tback] [-gap_trigger float_value] [-num_iterations int_value]
+    [-out_pssm checkpoint_file] [-out_ascii_pssm ascii_mtx_file]
+    [-save_pssm_after_last_round] [-save_each_pssm] [-in_msa align_restart]
+    [-msa_master_idx index] [-ignore_msa_master] [-in_pssm psi_chkpt_file]
+    [-pseudocount pseudocount] [-inclusion_ethresh ethresh]
+    [-phi_pattern file] [-version]
+
+DESCRIPTION
+   Position-Specific Iterated BLAST 2.7.1+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+Error:  (CArgException::eConstraint) Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+- 07:22:31.717 WARNING: Ignoring unknown option -v0
+
+- 07:22:48.361 INFO: Searching 13605227 column state sequences.
+
+- 07:22:48.574 INFO: query_fas is in A2M, A3M or FASTA format
+
+- 07:22:48.575 INFO: Iteration 1
+
+- 07:22:48.737 INFO: Prefiltering database
+
+- 07:23:23.112 INFO: HMMs passed 1st prefilter (gapless profile-profile alignment)  : 208360
+
+- 07:23:24.044 INFO: HMMs passed 2nd prefilter (gapped profile-profile alignment)   : 186
+
+- 07:23:24.045 INFO: HMMs passed 2nd prefilter and not found in previous iterations : 186
+
+- 07:23:24.045 INFO: Scoring 186 HMMs using HMM-HMM Viterbi alignment
+
+- 07:23:25.226 INFO: Alternative alignment: 0
+
+- 07:23:25.605 INFO: 186 alignments done
+
+- 07:23:25.606 INFO: Alternative alignment: 1
+
+- 07:23:25.744 INFO: 185 alignments done
+
+- 07:23:25.745 INFO: Alternative alignment: 2
+
+- 07:23:25.770 INFO: 13 alignments done
+
+- 07:23:25.770 INFO: Alternative alignment: 3
+
+- 07:23:25.793 INFO: 2 alignments done
+
+- 07:23:26.179 INFO: Realigning 155 HMM-HMM alignments using Maximum Accuracy algorithm
+
+- 07:23:27.145 INFO: 88 sequences belonging to 88 database HMMs found with an E-value < 0.001
+
+- 07:23:27.145 INFO: Number of effective sequences of resulting query HMM: Neff = 5.01464
+
+- 07:23:27.158 INFO: Iteration 2
+
+- 07:23:27.295 INFO: Prefiltering database
+
+- 07:23:52.564 INFO: HMMs passed 1st prefilter (gapless profile-profile alignment)  : 308516
+
+- 07:23:54.069 INFO: HMMs passed 2nd prefilter (gapped profile-profile alignment)   : 266
+
+- 07:23:54.069 INFO: HMMs passed 2nd prefilter and not found in previous iterations : 180
+
+- 07:23:54.069 INFO: Scoring 180 HMMs using HMM-HMM Viterbi alignment
+
+- 07:23:54.509 INFO: Alternative alignment: 0
+
+- 07:23:54.805 INFO: 180 alignments done
+
+- 07:23:54.805 INFO: Alternative alignment: 1
+
+- 07:23:54.908 INFO: 167 alignments done
+
+- 07:23:54.908 INFO: Alternative alignment: 2
+
+- 07:23:54.929 INFO: 10 alignments done
+
+- 07:23:54.929 INFO: Alternative alignment: 3
+
+- 07:23:54.932 INFO: 1 alignments done
+
+- 07:23:55.306 INFO: Rescoring previously found HMMs with Viterbi algorithm
+
+- 07:23:55.767 INFO: Alternative alignment: 0
+
+- 07:23:55.835 INFO: 86 alignments done
+
+- 07:23:55.835 INFO: Alternative alignment: 1
+
+- 07:23:55.904 INFO: 86 alignments done
+
+- 07:23:55.905 INFO: Alternative alignment: 2
+
+- 07:23:55.920 INFO: 5 alignments done
+
+- 07:23:55.920 INFO: Alternative alignment: 3
+
+- 07:23:55.934 INFO: 2 alignments done
+
+- 07:23:56.311 INFO: Realigning 211 HMM-HMM alignments using Maximum Accuracy algorithm
+
+- 07:23:57.109 INFO: 100 sequences belonging to 100 database HMMs found with an E-value < 0.001
+
+- 07:23:57.110 INFO: Number of effective sequences of resulting query HMM: Neff = 5.0586
+
+Query         1GX4:A|PDBID|CHAIN|SEQUENCE
+Match_columns 289
+No_of_seqs    371 out of 524
+Neff          5.0586
+Searched_HMMs 355
+Date          Thu Feb 27 07:23:57 2020
+Command       /home/sunzhe/MTDsites/run/hhsuite3.0/bin/hhblits -i query_fas -ohhm query_fas.hhm -d /home/sunzhe/MTDsites/run/uniclust30_2017_10/uniclust30_2017_10 -v0 -maxres 40000 -cpu 16 -Z 0 -o query_fas.hhr 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|F1N6G4|F1N6G4_BOVIN Unchara 100.0  7E-125  3E-130  892.6   0.0  278    7-287    83-361 (361)
+  2 tr|V8NE80|V8NE80_OPHHA N-acety 100.0  9E-124  4E-129  884.2   0.0  287    3-289    58-344 (344)
+  3 tr|H2M2S0|H2M2S0_ORYLA Unchara 100.0  2E-121  1E-126  869.6   0.0  279    8-288    76-358 (358)
+  4 tr|L9KP07|L9KP07_TUPCH N-acety 100.0  8E-120  3E-125  848.9   0.0  284    6-289    72-355 (355)
+  5 tr|A0A1A6HHD7|A0A1A6HHD7_NEOLE 100.0  3E-115  1E-120  808.6   0.0  263    7-287    21-284 (284)
+  6 tr|L5JU41|L5JU41_PTEAL Alpha 1 100.0  3E-114  2E-119  794.5   0.0  254   34-287     1-254 (254)
+  7 tr|G3SWC0|G3SWC0_LOXAF Unchara 100.0  1E-110  4E-116  785.4   0.0  282    5-287    88-369 (369)
+  8 tr|E6ZG12|E6ZG12_DICLA 'Globos 100.0  1E-110  5E-116  778.5   0.0  276   11-288     4-280 (287)
+  9 tr|H3AP87|H3AP87_LATCH Unchara 100.0  2E-110  7E-116  781.1   0.0  280    8-289    56-335 (335)
+ 10 tr|C1BJ50|C1BJ50_OSMMO Globosi 100.0  2E-107  7E-113  761.3   0.0  274   14-288    97-370 (370)
+
+USAGE
+  psiblast [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-entrez_query entrez_query] [-subject subject_input_file]
+    [-subject_loc range] [-query input_file] [-out output_file]
+    [-evalue evalue] [-word_size int_value] [-gapopen open_penalty]
+    [-gapextend extend_penalty] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value]
+    [-sum_stats bool_value] [-seg SEG_options] [-soft_masking soft_masking]
+    [-matrix matrix_name] [-threshold float_value] [-culling_limit int_value]
+    [-best_hit_overhang float_value] [-best_hit_score_edge float_value]
+    [-window_size int_value] [-lcase_masking] [-query_loc range]
+    [-parse_deflines] [-outfmt format] [-show_gis]
+    [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-comp_based_stats compo]
+    [-use_sw_tback] [-gap_trigger float_value] [-num_iterations int_value]
+    [-out_pssm checkpoint_file] [-out_ascii_pssm ascii_mtx_file]
+    [-save_pssm_after_last_round] [-save_each_pssm] [-in_msa align_restart]
+    [-msa_master_idx index] [-ignore_msa_master] [-in_pssm psi_chkpt_file]
+    [-pseudocount pseudocount] [-inclusion_ethresh ethresh]
+    [-phi_pattern file] [-version]
+
+DESCRIPTION
+   Position-Specific Iterated BLAST 2.7.1+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+Error:  (CArgException::eConstraint) Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+- 07:09:01.468 WARNING: Ignoring unknown option -v0
+
+- 07:09:10.490 INFO: Searching 13605227 column state sequences.
+
+- 07:09:10.598 INFO: query_fas is in A2M, A3M or FASTA format
+
+- 07:09:10.599 ERROR: - 07:09:10.599 ERROR: Error in /home/mmeier/hh-suite/src/hhalignment.cpp:1250: Compress:
+
+- 07:09:10.599 ERROR: 	sequences in query_fas do not all have the same number of columns, 
+
+- 07:09:10.599 ERROR: 	
+e.g. first sequence and sequence UniRef100_A0A084AHS0_486_733.
+
+- 07:09:10.599 ERROR: Check input format for '-M a2m' option and consider using '-M first' or '-M 50'
+
+Traceback (most recent call last):
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/spider3_pred.py", line 253, in <module>
+    run_all(list_dict_nn, [bn], opts)
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/spider3_pred.py", line 90, in run_all
+    test_seq_names, test_feat0, test_aa = load_data.read_input(list_pdb, pssm_dir, hhm_dir)
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/load_bioinf_data.py", line 82, in read_input
+    aa_hmm, seq_hmm = read_hmm( os.path.join(hhm_dir, pdb1+'.hhm'))
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/load_bioinf_data.py", line 134, in read_hmm
+    f = open(hhm_file)
+IOError: [Errno 2] No such file or directory: './query_fas.hhm'
+cp: cannot stat 'query_fas.hhm': No such file or directory
+Traceback (most recent call last):
+  File "/home/sunzhe/MTDsites/run/norm.py", line 120, in <module>
+    spd33=spd_g(name,'/home/sunzhe/MTDsites/run/feature/')
+  File "/home/sunzhe/MTDsites/run/norm.py", line 107, in spd_g
+    maxn[i] = max(t)
+ValueError: max() arg is an empty sequence
+USAGE
+  psiblast [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-entrez_query entrez_query] [-subject subject_input_file]
+    [-subject_loc range] [-query input_file] [-out output_file]
+    [-evalue evalue] [-word_size int_value] [-gapopen open_penalty]
+    [-gapextend extend_penalty] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value]
+    [-sum_stats bool_value] [-seg SEG_options] [-soft_masking soft_masking]
+    [-matrix matrix_name] [-threshold float_value] [-culling_limit int_value]
+    [-best_hit_overhang float_value] [-best_hit_score_edge float_value]
+    [-window_size int_value] [-lcase_masking] [-query_loc range]
+    [-parse_deflines] [-outfmt format] [-show_gis]
+    [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-comp_based_stats compo]
+    [-use_sw_tback] [-gap_trigger float_value] [-num_iterations int_value]
+    [-out_pssm checkpoint_file] [-out_ascii_pssm ascii_mtx_file]
+    [-save_pssm_after_last_round] [-save_each_pssm] [-in_msa align_restart]
+    [-msa_master_idx index] [-ignore_msa_master] [-in_pssm psi_chkpt_file]
+    [-pseudocount pseudocount] [-inclusion_ethresh ethresh]
+    [-phi_pattern file] [-version]
+
+DESCRIPTION
+   Position-Specific Iterated BLAST 2.7.1+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+Error:  (CArgException::eConstraint) Argument "num_threads". Illegal value, expected (>=1 and =<4):  `16'
+- 12:16:22.816 WARNING: Ignoring unknown option -v0
+
+- 12:16:28.255 INFO: Searching 13605227 column state sequences.
+
+- 12:16:28.345 INFO: query_fas is in A2M, A3M or FASTA format
+
+- 12:16:28.346 ERROR: - 12:16:28.346 ERROR: Error in /home/mmeier/hh-suite/src/hhalignment.cpp:1250: Compress:
+
+- 12:16:28.346 ERROR: 	sequences in query_fas do not all have the same number of columns, 
+
+- 12:16:28.346 ERROR: 	
+e.g. first sequence and sequence 2YKG:C|PDBID|CHAIN|SEQUENCE.
+
+- 12:16:28.346 ERROR: Check input format for '-M a2m' option and consider using '-M first' or '-M 50'
+
+Traceback (most recent call last):
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/spider3_pred.py", line 253, in <module>
+    run_all(list_dict_nn, [bn], opts)
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/spider3_pred.py", line 90, in run_all
+    test_seq_names, test_feat0, test_aa = load_data.read_input(list_pdb, pssm_dir, hhm_dir)
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/load_bioinf_data.py", line 82, in read_input
+    aa_hmm, seq_hmm = read_hmm( os.path.join(hhm_dir, pdb1+'.hhm'))
+  File "/home/sunzhe/MTDsites/run/SPIDER3-numpy-server/script/load_bioinf_data.py", line 134, in read_hmm
+    f = open(hhm_file)
+IOError: [Errno 2] No such file or directory: './query_fas.hhm'
+cp: cannot stat 'query_fas.hhm': No such file or directory
+Traceback (most recent call last):
+  File "/home/sunzhe/MTDsites/run/norm.py", line 120, in <module>
+    spd33=spd_g(name,'/home/sunzhe/MTDsites/run/feature/')
+  File "/home/sunzhe/MTDsites/run/norm.py", line 107, in spd_g
+    maxn[i] = max(t)
+ValueError: max() arg is an empty sequence
+begin
+e490d13
+begin
+f9e4178
+begin
+6e1b559
+begin
+test_DBPS
+Traceback (most recent call last):
+  File "timeloop.py", line 16, in <module>
+    os.chdir(name)
+FileNotFoundError: [Errno 2] No such file or directory: 'test_DBPS'
